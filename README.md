@@ -17,6 +17,8 @@ Benchmarking is exceptionally comprehensive, rigorously evaluating the custom MA
 The project demonstrates utility-scale parity with 0.0% optimality gap and 31× ground-state concentration on real QPUs. While classical MILP remains faster for small 5-bus topologies, the architecture provides a viable polynomial-scaling NISQ trajectory for high-dimensional combinatorial grid problems, balanced by an honest, grounded discussion of current hardware constraints.
 
 ---
+Deployed App:
+https://qiskitfallfest2026cutm-9qchzqtnxbmedb6kqq8v5k.streamlit.app/ 
 
 
 
