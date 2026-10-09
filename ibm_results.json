@@ -1,0 +1,174 @@
+{
+  "job_id": "db46og4vf2bc73cu5ak0",
+  "backend": "ibm_marrakesh",
+  "fake": false,
+  "shots": 4096,
+  "run_time_s": 9.12,
+  "ibm_platform_url": "https://quantum.cloud.ibm.com/jobs/db46og4vf2bc73cu5ak0",
+  "generators": [
+    "Coal-1",
+    "Gas",
+    "Hydro"
+  ],
+  "blocks": [
+    "00-06",
+    "06-12",
+    "12-18"
+  ],
+  "nodes": [
+    "VSKP",
+    "VZM",
+    "VJA",
+    "KNL",
+    "TPT"
+  ],
+  "demand_mw": [
+    [
+      173.13132967350955,
+      229.38523920958727,
+      257.8287607755158,
+      294.1403244053881
+    ],
+    [
+      82.68390769433427,
+      114.07840662310468,
+      127.33284795475282,
+      143.44164226416888
+    ],
+    [
+      143.35397982686473,
+      191.88423569210136,
+      215.4032102140065,
+      244.33370333365613
+    ],
+    [
+      86.15492710555398,
+      119.7695123285435,
+      128.19566217191385,
+      141.87380663083673
+    ],
+    [
+      86.67585569973748,
+      114.88260614666326,
+      129.2395188838111,
+      144.21052336595028
+    ]
+  ],
+  "renewable_mw": [
+    [
+      21.599999999999998,
+      48.0,
+      62.849999999999994,
+      27.45
+    ],
+    [
+      0.0,
+      40.0,
+      55.0,
+      3.0
+    ],
+    [
+      0.0,
+      30.0,
+      41.25,
+      2.25
+    ],
+    [
+      14.4,
+      12.0,
+      14.4,
+      16.8
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "hardware": {
+    "schedule": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "cost_lakh": 430.73,
+    "emissions_t": 7216.4,
+    "curtail_mwh": 0.0,
+    "unserved_mwh": 0.0,
+    "prob_in_top1pct": 0.0171,
+    "qubo_optimum_sampled": true,
+    "line_flows": [
+      {
+        "from": "VSKP",
+        "to": "VZM",
+        "capacity_mw": 300.0,
+        "max_loading_pct": 72.87158693013758
+      },
+      {
+        "from": "VZM",
+        "to": "VJA",
+        "capacity_mw": 250.0,
+        "max_loading_pct": 57.81454166692321
+      },
+      {
+        "from": "VJA",
+        "to": "KNL",
+        "capacity_mw": 200.0,
+        "max_loading_pct": 56.897831085956916
+      },
+      {
+        "from": "KNL",
+        "to": "TPT",
+        "capacity_mw": 150.0,
+        "max_loading_pct": 100.0
+      },
+      {
+        "from": "VJA",
+        "to": "TPT",
+        "capacity_mw": 200.0,
+        "max_loading_pct": 31.66207215013126
+      }
+    ]
+  },
+  "ideal": {
+    "schedule": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "cost_lakh": 430.73,
+    "emissions_t": 7216.4,
+    "curtail_mwh": 0.0,
+    "unserved_mwh": 0.0,
+    "prob_in_top1pct": 0.0818,
+    "qubo_optimum_sampled": true
+  },
+  "milp": {
+    "cost_lakh": 422.33
+  }
+}
